@@ -1,5 +1,5 @@
 // Generated using https://github.com/a2x/cs2-dumper
-// 2026-07-01 05:47:46.716526100 UTC
+// 2026-07-03 20:22:40.020102200 UTC
 
 namespace CS2Dumper.Interfaces {
     // Module: animationsystem.dll
@@ -190,10 +190,6 @@ namespace CS2Dumper.Interfaces {
     // Module: v8system.dll
     public static class V8systemDll {
         public const nint Source2V8System001 = 0x31730;
-    }
-    // Module: vconcomm.dll
-    public static class VconcommDll {
-        public const nint VConComm001 = 0x395C0;
     }
     // Module: vphysics2.dll
     public static class Vphysics2Dll {

@@ -1,5 +1,5 @@
 // Generated using https://github.com/a2x/cs2-dumper
-// 2026-07-01 05:47:46.716526100 UTC
+// 2026-07-03 20:22:40.020102200 UTC
 
 #![allow(non_upper_case_globals, unused)]
 
@@ -193,10 +193,6 @@ pub mod cs2_dumper {
         // Module: v8system.dll
         pub mod v8system_dll {
             pub const Source2V8System001: usize = 0x31730;
-        }
-        // Module: vconcomm.dll
-        pub mod vconcomm_dll {
-            pub const VConComm001: usize = 0x395C0;
         }
         // Module: vphysics2.dll
         pub mod vphysics2_dll {

@@ -1,5 +1,5 @@
 // Generated using https://github.com/a2x/cs2-dumper
-// 2026-07-01 05:47:46.716526100 UTC
+// 2026-07-03 20:22:40.020102200 UTC
 
 #![allow(non_upper_case_globals, unused)]
 
@@ -11,7 +11,7 @@ pub mod cs2_dumper {
             pub const dwEntityList: usize = 0x24E7680;
             pub const dwGameEntitySystem: usize = 0x24E7680;
             pub const dwGameEntitySystem_highestEntityIndex: usize = 0x2090;
-            pub const dwGameRules: usize = 0x1A02BC0;
+            pub const dwGameRules: usize = 0x2340FE8;
             pub const dwGlobalVars: usize = 0x20616D0;
             pub const dwGlowManager: usize = 0x233DDE0;
             pub const dwLocalPlayerController: usize = 0x2320570;
