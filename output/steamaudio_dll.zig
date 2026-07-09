@@ -1,5 +1,5 @@
 // Generated using https://github.com/a2x/cs2-dumper
-// 2026-07-06 21:37:15.547389 UTC
+// 2026-07-09 00:26:34.447878200 UTC
 
 pub const cs2_dumper = struct {
     pub const schemas = struct {
@@ -107,7 +107,7 @@ pub const cs2_dumper = struct {
                 pub const m_probes: usize = 0x10; // CSteamAudioProbeData
                 pub const m_vecPathingRatio: usize = 0x18; // CUtlVector<float32>
                 pub const m_vecPathingDeviation: usize = 0x30; // CUtlVector<float32>
-                pub const m_vecReflectionRatio: usize = 0x48; // CUtlVector<float32>
+                pub const m_vecReflectionEnergy: usize = 0x48; // CUtlVector<float32>
             };
             // Parent: None
             // Field count: 12
