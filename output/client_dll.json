@@ -7410,6 +7410,16 @@
           "SYNC_WAIT_FOR_COMPLETION": 0
         },
         "type": "uint32"
+      },
+      "_U_5__": {
+        "alignment": 0,
+        "members": {},
+        "type": "unknown"
+      },
+      "___5__": {
+        "alignment": 0,
+        "members": {},
+        "type": "unknown"
       }
     }
   }
