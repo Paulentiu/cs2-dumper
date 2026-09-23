@@ -82,7 +82,7 @@ pattern_map! {
         "dwEntityList" => pattern!("48890d${'} e9${} cc") => None,
         "dwGameEntitySystem" => pattern!("488b1d${'} 48891d[4] 4c63b3") => None,
         "dwGameEntitySystem_highestEntityIndex" => pattern!("ff81u4 4885d2") => None,
-		"dwGameRules" => pattern!("f6c1010f85${} 4c8b05${'} 4d85") => None,
+        "dwGameRules" => pattern!("f6c1010f85${} 4c8b05${'} 4d85") => None,
         "dwGlobalVars" => pattern!("488915${'} 488942") => None,
         "dwGlowManager" => pattern!("488b05${'} c3 cccccccccccccccc 8b41") => None,
         "dwLocalPlayerController" => pattern!("488b05${'} 4189be") => None,
@@ -94,9 +94,9 @@ pattern_map! {
                 map.insert("dwLocalPlayerPawn".to_string(), rva + save[1]);
             }
         }),
-		"dwSensitivity" => pattern!("488d0d${[8]'} 660f6ecd") => Some(|_view, map, _rva| {
-			map.insert("dwSensitivity_sensitivity".to_string(), 0x58);
-		}),
+        "dwSensitivity" => pattern!("488d0d${[8]'} 0f57c90f28f0") => Some(|_view, map, _rva| {
+            map.insert("dwSensitivity_sensitivity".to_string(), 0x58);
+        }),
         "dwViewMatrix" => pattern!("488d0d${'} 48c1e006") => None,
         "dwViewRender" => pattern!("488905${'} 488bc8 4885c0") => None,
         "dwWeaponC4" => pattern!("488b15${'} 488b5c24? ffc0 8905${} 488bc6 488934ea 80be") => None,
@@ -122,7 +122,7 @@ pattern_map! {
     },
     soundsystem => {
         "dwSoundSystem" => pattern!("488d0d${'} e8${} 488b0d${} [3] 4c8b82") => None,
-        "dwSoundSystem_engineViewData" => pattern!("0f1147u1 0f104e? 0f118f") => None,
+        "dwSoundSystem_engineViewData" => pattern!("0f1147u1 0f104f10 0f114f7c") => None,
     },
 }
 
