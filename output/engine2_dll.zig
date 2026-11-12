@@ -1,5 +1,5 @@
 // Generated using https://github.com/a2x/cs2-dumper
-// 2026-11-05 11:32:19.321762300 UTC
+// 2026-11-12 05:36:20.949961300 UTC
 
 pub const cs2_dumper = struct {
     pub const schemas = struct {
@@ -343,9 +343,10 @@ pub const cs2_dumper = struct {
                 pub const m_nRenderHeight: usize = 0x24; // int32
             };
             // Parent: None
-            // Field count: 1
+            // Field count: 2
             pub const EventClientPollNetworking_t = struct {
                 pub const m_nTickCount: usize = 0x0; // int32
+                pub const m_nTotalTicks: usize = 0x4; // int32
             };
             // Parent: None
             // Field count: 1
