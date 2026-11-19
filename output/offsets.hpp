@@ -21,7 +21,7 @@ namespace cs2_dumper {
             constexpr std::ptrdiff_t dwLocalPlayerPawn = 0x2557538;
             constexpr std::ptrdiff_t dwPlantedC4 = 0x24BD9E8;
             constexpr std::ptrdiff_t dwPrediction = 0x2557440;
-            constexpr std::ptrdiff_t dwSensitivity = 0x2554648;
+            constexpr std::ptrdiff_t dwSensitivity = 0x25546C8;
             constexpr std::ptrdiff_t dwSensitivity_sensitivity = 0x58;
             constexpr std::ptrdiff_t dwViewAngles = 0x256D668;
             constexpr std::ptrdiff_t dwViewMatrix = 0x255CE50;
