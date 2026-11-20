@@ -1,5 +1,5 @@
 // Generated using https://github.com/a2x/cs2-dumper
-// 2026-11-18 06:06:49.367976900 UTC
+// 2026-11-20 06:36:21.038103800 UTC
 
 pub const cs2_dumper = struct {
     pub const interfaces = struct {
@@ -15,9 +15,9 @@ pub const cs2_dumper = struct {
             pub const EmptyWorldService001_Client: usize = 0x220AEA0;
             pub const GameClientExports001: usize = 0x2223E08;
             pub const LegacyGameUI001: usize = 0x22351A0;
-            pub const Source2Client002: usize = 0x2551080;
-            pub const Source2ClientConfig001: usize = 0x24ADB00;
-            pub const Source2ClientPrediction001: usize = 0x2557440;
+            pub const Source2Client002: usize = 0x2551600;
+            pub const Source2ClientConfig001: usize = 0x24AE080;
+            pub const Source2ClientPrediction001: usize = 0x25579C0;
             pub const Source2ClientUI001: usize = 0x22322A0;
         };
         // Module: engine2.dll
