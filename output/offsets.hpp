@@ -1,5 +1,5 @@
 // Generated using https://github.com/a2x/cs2-dumper
-// 2026-11-20 06:36:21.038103800 UTC
+// 2026-11-21 11:21:38.887859700 UTC
 
 #pragma once
 
@@ -21,7 +21,7 @@ namespace cs2_dumper {
             constexpr std::ptrdiff_t dwLocalPlayerPawn = 0x2557AB8;
             constexpr std::ptrdiff_t dwPlantedC4 = 0x24BDF68;
             constexpr std::ptrdiff_t dwPrediction = 0x25579C0;
-            constexpr std::ptrdiff_t dwSensitivity = 0x2554BC8;
+            constexpr std::ptrdiff_t dwSensitivity = 0x2554C48;
             constexpr std::ptrdiff_t dwSensitivity_sensitivity = 0x58;
             constexpr std::ptrdiff_t dwViewAngles = 0x256DBE8;
             constexpr std::ptrdiff_t dwViewMatrix = 0x255D3D0;
